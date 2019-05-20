@@ -1,0 +1,102 @@
+Project: 
+RosaBalan Lingerie
+Todo:
+Ajustes gerais CSS:
+✔ Ajustar media queries (576px); @done(18-11-23 09:26)
+✔ Ajustar media queries (768px); @done(19-03-29 10:15)
+✔ Ajustar media queries (992px); @done(19-03-29 10:15)
+✔ Ajustar media queries (1200px); @done(19-03-29 10:15)
+Mensagens:
+☐ Melhorar mensagem de confirmação de cadastro;
+☐ Melhorar mensagem de erro no cadastro;
+
+Project:
+Rosabalan E-Commerce
+
+Informações gerais : 
+Usar uma plataforma de e-commerce para iniciar as vendas online.
+Em uma segunda etapa podemos desenvolver a propria plataforma com novos serviços, podendo usar até o projeto de delivery.
+
+Plataformas:
+Nuvemshop - www.nuvemshop.com.br 
+Plano - Advanced R$ 99,90 por mês (cadastro de produto ilimitado) + R$ 0,99 por venda concluida + taxa Pagseguro 
+
+UOL Host - www.uolhost.com.br/loja-virtual
+Plano - Até 50 produtos R$ 69,99 por mês + taxa Pagseguro
+
+✔ Loja Integrada - www.lojaintegrada.com.br @done(19-04-22 22:15)
+Plano - Até 100 produtos R$ 49,00 por mês - 1 usuario / Até 300 produtos R$ 99,00 por mês - 2 usuarios + taxa Pagseguro
+
+✔ Shopify - https://pt.shopify.com/ @done(19-04-22 22:16)
+Plano - Basic Shopify US$ 29,00 - 2 usuarios (produtos ilimitados) + 2% taxa de transação + taxa Pagseguro
+
+WixStores - https://pt.wix.com/ecommerce/sell-online
+Plano - VIP - R$ 69,00 + taxa Pagseguro (sem muitas informações sobre os planos, taxas, etc)
+Tamanho imagem 307x460 px
+
+✔ Xtech Commerce - https://www.xtechcommerce.com/ @done(19-04-22 22:16)
+Plano - MARS - R$ 99,00 + taxa Pagseguro ( limite de produtos {240} e acessos {24.000} )
+Altura da imagem 320 px
+
+Produtos:
+    Tamanho do box para produtos // Necessario ter escolhido a plataforma para ver o tamanho do box/imagem antes de produzir as fotos
+    
+
+Project: 
+RosaBalan Lingerie Delivery
+Informações gerais:
+
+Layout :
+Site para consulta do estilo www.bravissimo.com
+Site para consulta do estilo www.orangesprocket.com 
+Site fluido, todo conteudo em só uma pagina. É possivel ? Ficaria legal ?
+
+Tecnologia :
+Desenvolver usando Laravel ?
+Desenvolver usando Magento ?
+Caso usar cookies, mensagem legal no rodapé solicitando a permissão para uso.
+
+Consultas :
+https://novonegocio.com.br/ideias-de-negocios/como-abrir-um-delivery-de-lingerie/
+https://economia.uol.com.br/empreendedorismo/noticias/redacao/2016/02/25/empresaria-larga-carreira-e-fatura-com-delivery-e-test-drive-de-lingerie.htm
+https://unboundbabes.com/
+Versão desktop
+
+Funcionamento :
+Algoritmo para montagem da bag ?
+Se sim, opção do cliente escolher cores preferenciais.
+
+Login :
+Questões para pesquisar :
+☐ Opção de login Facebook
+☐ Account Kit Facebook ( login pelo telefone celular ou endereço de e-mail )
+https://developers.facebook.com/
+
+Cadastros :
+☐ Cliente
+Nome
+Sobrenome
+Data de nascimento
+RG 
+CPF 
+Endereço completo
+Endereço de entrega(variavel)
+Cartão de Credito
+Tipo de lingerie preferida 
+Tamanhos ( separar calcinha, sutiã, camisola, etc. )
+Cores preferidas
+Planos de bags
+
+☐ Produto
+Codigo
+
+Questões pra pesquisar : 
+☐ Como funciona o cadastro com o facebook ?
+
+☐ Serviço de entrega
+
+☐ Produto
+Categoria
+Bags para datas especiais
+
+Versão mobile

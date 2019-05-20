@@ -1,0 +1,229 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
+}
+
+body{
+  background-image: url("../imagens/background3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.main_grid{
+  width: 100%;
+}
+
+.logo_container {
+  display: grid;
+  grid-template-columns: 1fr 0.3fr 1.5fr 1fr;
+  margin-top: 15px;
+}
+
+.logo{
+  width:120px;
+  grid-column-start: 4;
+  grid-column-end: 4;
+  margin: 0 auto;
+}
+
+.headline1{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  display: grid;
+  grid-template-rows: 2;
+  margin-top: -45px;
+}
+
+.headline2{
+  margin-top: 295px;
+}
+
+#head1{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3rem;
+  color: #C9C9C9;
+  text-shadow: 0px 0px 22px black;
+}
+
+#head2{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  margin-left: 22px;
+  font-family: 'Fjalla One', sans-serif;
+  /*font-family: 'PT Sans Narrow', sans-serif;*/
+  font-size: 1.4rem;
+  color: #C9C9C9;
+  text-shadow: 0px 0px 15px black;
+}
+
+#head3{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  margin-left: 125px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.9rem;
+  color: white;
+  text-shadow: 0px 0px 15px black;
+}
+
+#head4{
+  margin-top: 20px;
+  margin-left: 125px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1rem;
+  color: white;
+  text-shadow: 0px 0px 15px black;
+}
+
+.cadastro_container {
+  display: grid;
+  grid-template-columns: 0.4fr repeat(2, 0.7fr) 1fr 0.5fr 1fr;
+  margin-top: 10px;
+}
+
+.label_cad{
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+#label1{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+  color: white;
+  text-shadow: 0px 0px 15px black;
+  margin-left: 5px;
+}
+
+#label2{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+  color: white;
+  text-shadow: 0px 0px 15px black;
+  margin-left: 5px;
+}
+
+#label3{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+  color: white;
+  text-shadow: 0px 0px 15px black;
+  margin-left: 5px;
+}
+
+#label4{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+  color: white;
+  text-shadow: 0px 0px 15px black;
+  margin-left: 5px;
+}
+
+.form_grid_item {
+  grid-column-start: 2;
+  grid-column-end:2;
+  opacity: 0.3;
+}
+
+.form_grid_item2 {
+  grid-column-start: 3;
+  grid-column-end:3;
+  opacity: 0.3;
+}
+
+.form_grid_item3 {
+  grid-column-start: 4;
+  grid-column-end:4;
+  opacity: 0.3;
+}
+
+.form_grid_item4 {
+  grid-column-start: 5;
+  grid-column-end:5;
+  opacity: 0.3;
+}
+
+.form_grid_item5 {
+  grid-column-start: 6;
+  grid-column-end:6;
+  opacity: 0.3;
+}
+
+.form_grid_item6 {
+  grid-column-start: 7;
+  grid-column-end:7;
+}
+
+.cad_form_input{
+  border-radius: 5px;
+  width: 215px;
+  height: 29px;
+  border: none;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: black;
+  text-transform: capitalize;
+}
+
+.cad_form_input2{
+  border-radius: 5px;
+  width: 215px;
+  height: 29px;
+  border: none;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: black;
+  text-transform: capitalize;
+}
+
+.cad_form_input3{
+  border-radius: 5px;
+  width: 309px;
+  height: 29px;
+  border: none;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: black;
+  text-transform: lowercase;
+}
+
+#estados{
+  border-radius: 5px;
+  width: 156px;
+  height: 29px;
+  border: none;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+}
+
+.cad_btn{
+  border-radius: 5px;
+  width: 80px;
+  height: 29px;
+  border: none;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: black;
+}
+
+@media (min-width:768px) {
+  .main_grid {
+    min-height: 25vh;
+ }
