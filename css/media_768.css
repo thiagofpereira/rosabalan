@@ -1,0 +1,232 @@
+@media (max-width: 768px) {
+    .main_grid {
+      min-height: 100%;
+    }
+  
+    body {
+      background-image: none;
+      background-color: black;
+    }
+  
+    .headline1 {
+      display: none;
+    }
+
+    .logo_container {
+        display: grid;
+        grid-template-columns: 0.5fr 2fr 0.5fr;
+        margin-top: 15px;
+      }
+
+    .logo{
+      width:120px;
+      grid-column-start: 2;
+      grid-column-end: 2;
+      margin: 0 auto;
+    }
+
+    .headline2{
+      margin-top: 50px;
+      }
+
+    #head3{
+      font-family: 'PT Sans Narrow', sans-serif;
+      font-size: 1.1rem;
+      color: white;
+      text-shadow: 0px 0px 15px black;
+      margin-left: 10px;
+    }
+
+    .cadastro_container {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-top: 10px;
+      }
+      
+      .label_cad{
+      grid-column-start: 1;
+      grid-column-end: 1;
+      }
+      
+      .label_cad2{
+      grid-row-start: 3;
+      grid-row-end: 3;  
+      margin-top: 10px;  
+      }
+
+      .label_cad3{
+      grid-row-start: 5;
+      grid-row-end: 5;  
+      margin-top: 10px;
+      }
+
+      .label_cad4{
+      grid-row-start: 7;
+      grid-row-end: 7;  
+      margin-top: 10px;  
+      }
+
+      #label1{
+      font-family: 'PT Sans Narrow', sans-serif;
+      font-style: italic;
+      font-size: 1rem;
+      color: white;
+      text-shadow: 0px 0px 15px black;
+      margin-left: 10px;
+      }
+      
+      #label2{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-style: italic;
+        font-size: 1rem;
+        color: white;
+        text-shadow: 0px 0px 15px black;
+        margin-left: 10px;
+      }
+      
+      #label3{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-style: italic;
+        font-size: 1rem;
+        color: white;
+        text-shadow: 0px 0px 15px black;
+        margin-left: 10px;
+      }
+      
+      #label4{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-style: italic;
+        font-size: 1rem;
+        color: white;
+        text-shadow: 0px 0px 15px black;
+        margin-left: 10px;
+      }
+      
+      .form_grid_item {
+        grid-row-start: 2;
+        grid-row-end:2;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        opacity: 0.3;
+        margin: 0 auto;
+      }
+      
+      .form_grid_item2 {
+        grid-row-start: 4;
+        grid-row-end:4;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        opacity: 0.3;
+        margin: 0 auto;  
+      }
+      
+      .form_grid_item3 {
+        grid-row-start: 6;
+        grid-row-end:6;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        opacity: 0.3;
+        margin: 0 auto; 
+      }
+      
+      .form_grid_item4 {
+        grid-row-start: 8;
+        grid-row-end: 8;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        opacity: 0.3;
+        margin: 0 auto;  
+      }
+      
+      .form_grid_item5 {
+        grid-row-start: 10;
+        grid-row-end: 10;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        opacity: 0.3;
+        margin: 0 auto;
+      }
+      
+      .form_grid_item6 {
+        grid-row-start: 12;
+        grid-row-end: 12;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        margin: 0 auto;  
+      }
+      
+      .cad_form_input{
+        border-radius: 5px;
+        width: 350px;
+        height: 40px;
+        border: none;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: black;
+        text-transform: capitalize;
+      }
+      
+      .cad_form_input2{
+        border-radius: 5px;
+        width: 350px;
+        height: 40px;
+        border: none;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: black;
+        text-transform: capitalize;
+      }
+      
+      .cad_form_input3{
+        border-radius: 5px;
+        width: 350px;
+        height: 40px;
+        border: none;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: black;
+        text-transform: lowercase;
+      }
+      
+      #estados{
+        border-radius: 5px;
+        width: 350px;
+        height: 40px;
+        border: none;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+      }
+      
+      .cad_btn{
+        border-radius: 5px;
+        width: 150px;
+        height: 40px;
+        border: none;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: black;
+        margin-top: 25px;
+      }
+    
+      #head4{
+        margin-top: 20px;
+        margin-left: 10px;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 1rem;
+        color: white;
+        text-shadow: 0px 0px 15px black;
+      }
+}
+  
+  /*media breakpoints 
+  
+  SM -> min-width 576px
+  MD -> min-width 768px
+  LG -> min-width 992px
+  XL -> min-width 1200px

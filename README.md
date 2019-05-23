@@ -43,3 +43,5 @@ git push origin [branch_nome] para atualizar sua branch remota.
 
 No GitHub, criar um pull request da sua branch para a branch master.
 Outro membro do grupo deve aceitar o pull request
+=======
+
