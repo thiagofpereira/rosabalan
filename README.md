@@ -40,5 +40,8 @@ git pull origin master para atualizar sua branch master local com os commits da 
 git checkout [branch_nome] para mudar para sua branch.
 git merge master para trazer os commits novos da master para sua branch local. Pode ocorrer conflitos nesse momento, caso aconteça será necessário analisar um a um.
 git push origin [branch_nome] para atualizar sua branch remota.
+
 No GitHub, criar um pull request da sua branch para a branch master.
 Outro membro do grupo deve aceitar o pull request
+=======
+
