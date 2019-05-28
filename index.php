@@ -13,7 +13,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|PT+Sans+Narrow" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon/favicon.jpg">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media_576.css">
     <link rel="stylesheet" href="./css/media_768.css">
@@ -27,7 +27,7 @@
 
           <article>
             <div class="logo_container">
-              <img class="logo" src="imagens/logogrey.png" alt="rosabalan"/>
+              <img class="logo" src="imagens/logo_black.jpg" alt="rosabalan"/>
               <div class="headline1">
                 <p id="head1">Conforto é essencial...</p>
                 <p id="head2">Você precisa conhecer nossas lingeries</p>
@@ -90,7 +90,7 @@
       </form>
 
         <div class="headline3">
-            <p id="head4">* Enquanto o site completo não fica pronto, além de cadastrar seu e-mail solicite os modelos por telefone: (11) 9.9800.4968</p>
+            <p id="head4">* Enquanto o site completo não fica pronto, além de cadastrar seu e-mail solicite os modelos pelo Whatsapp: (11) 9.9800.4968</p>
         </div>
 
     </section>
