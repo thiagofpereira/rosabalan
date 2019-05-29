@@ -222,8 +222,3 @@ body{
   font-weight: bold;
   color: black;
 }
-
-@media (min-width:768px) {
-  .main_grid {
-    min-height: 25vh;
- }
