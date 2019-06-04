@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|PT+Sans+Narrow" rel="stylesheet">
     <link rel="shortcut icon" href="favicon/favicon.jpg">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Rosabalan Lingerie</title>
+    <title>Rosabalan Lingerie & Sleepwear</title>
   </head>
   <body>
     <div class="main_grid">
@@ -15,16 +15,16 @@
 
           <article>
             <div class="logo_container">
-              <img class="logo" src="imagens/logogrey.png" alt="rosabalan"/>
-              <div class="headline1">
-                <p id="head1">Conforto é essencial...</p>
-                <p id="head2">Você precisa conhecer nossas lingeries</p>
-              </div>
+              <img class="logo" src="imagens/logo_white.png" alt="rosabalan"/>
               </div>
           </article>
 
-          <div class="headline2">
-            <p id="head3">Ei, este e-mail já foi cadastrado. Tente novamente usando outro e-mail.</p>
+          <div class="cham1">
+            <p id="linha1">O e-mail informado já está cadastrado, tente novamente utilizando outro e-mail</p>
+          </div>
+
+          <div class="btn">
+          <button value="Voltar" class="back_btn" onClick="window.history.back();">Voltar</button>
           </div>
 
          </section>
