@@ -4,8 +4,7 @@
     }
   
     body {
-      background-image: none;
-      background-color: black;
+      background-image: url("../imagens/y_background2.jpg");
     }
   
     .headline1 {
@@ -143,7 +142,6 @@
         grid-row-end: 10;
         grid-column-start: 1;
         grid-column-end: 1;
-        opacity: 0.3;
         margin: 0 auto;
       }
       
@@ -204,13 +202,13 @@
       
       .cad_btn{
         border-radius: 5px;
-        width: 150px;
-        height: 40px;
+        width: 80px;
+        height: 29px;
         border: none;
         font-family: 'PT Sans Narrow', sans-serif;
-        font-size: 1.2rem;
-        font-weight: bold;
-        color: black;
+        font-size: 0.9rem;
+        color: yellow;
+        background-color: black;
         margin-top: 25px;
       }
     

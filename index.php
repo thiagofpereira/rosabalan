@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media_576.css">
     <link rel="stylesheet" href="./css/media_768.css">
-    <link rel="stylesheet" href="./css/media_992.css">
     <title>Rosabalan Lingerie & Sleepwear</title>
   </head>
   <body>
