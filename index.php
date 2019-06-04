@@ -12,13 +12,17 @@
 </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Loja online Rosabalan Lingerie & Sleepwear">
+    <meta name="keywords" content="lingerie, lingeries, pijamas, camisola, body, bodies, moda feminina, moda intima">
+    <meta name="robots" content="index, follow">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|PT+Sans+Narrow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon/favicon.ico">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media_576.css">
     <link rel="stylesheet" href="./css/media_768.css">
     <link rel="stylesheet" href="./css/media_992.css">
-    <title>Rosabalan Lingerie</title>
+    <title>Rosabalan Lingerie & Sleepwear</title>
   </head>
   <body>
     <div class="main_grid">
@@ -27,19 +31,49 @@
 
           <article>
             <div class="logo_container">
-              <img class="logo" src="imagens/logo_black.jpg" alt="rosabalan"/>
-              <div class="headline1">
-                <p id="head1">Conforto é essencial...</p>
-                <p id="head2">Você precisa conhecer nossas lingeries</p>
-              </div>
-              </div>
+              <img class="logo" src="imagens/logo_white.png" alt="rosabalan"/>
+            </div>
           </article>
-
-          <div class="headline2">
-            <p id="head3">Cadastre-se e receba antecipadamente nossas novidades.</p>
-          </div>
-
+          <article>
+            <div class="cham1">
+              <p id="linha1">Enquanto a loja online e o showroom não ficam prontos, faça seu cadastro e garanta <span>15%</span> de desconto no lançamento</p> 
+            </div>
+          </article>
+          <article>
+            <div class="cham2">
+              <p id="linha2">Com o cadastro você também pode utilizar seu desconto para compras via Whatsapp, Facebook e Instagram</p>
+          </article>
+          <article>
+            <div class="cham3">
+              <p id="linha3"><strong>Siga-nos</strong></p>
+          </article>
           
+          <article>
+          <div class="social_media_boxes">
+          <div class="social1">  
+            <a href="https://www.instagram.com/rosabalan.lingerie/" target="_blank">
+            <img id="instagram" title="instagram" src="imagens/instagram.png" alt="instagram">
+            </a>
+          </div>
+          <div class="social2">
+          <a href="https://www.facebook.com/rosabalanlovemade/" target="_blank">
+            <img id="facebook" title="facebook" src="imagens/facebook.png" alt="facebook">
+            </a>
+          </div>
+          <div class="social3">
+          <a href="https://twitter.com/rosabalanl" target="_blank">
+            <img id="twitter" title="twitter" src="imagens/twitter.png" alt="twitter">
+            </a>
+          </div>
+          <div class="social4">
+          <a href="https://api.whatsapp.com/send?phone=5511998004968" target="_blank">
+            <img id="whatsapp" title="whatsapp" src="imagens/whatsapp.png" alt="whatsapp">
+            </a>
+          </div>  
+          </div>
+          </article>
+          
+          <div class="main_cadastro_container">
          <form class="cadastro_container" action="db_funcoes.php" method="post" enctype="multipart/form-data">
           <div class="label_cad">
             <a id="label1">Nome</a>
@@ -88,12 +122,8 @@
           </div>
 
       </form>
-
-        <div class="headline3">
-            <p id="head4">* Enquanto o site completo não fica pronto, além de cadastrar seu e-mail solicite os modelos pelo Whatsapp: (11) 9.9800.4968</p>
-        </div>
-
-    </section>
+          </div>
+      </section>
       </div>
     </body>
 </html>
