@@ -109,7 +109,9 @@
             <label class="cad_form_label" for="localidade"></label>
             <select id="estados" name="estados_brasil">
               <?php
+              //Conexão com o banco de dados
               require_once('db_conn.php');
+              //Lista os Estados para o "select"
               foreach ($estados as $estados_brasil){ ?>
                 <option value="<?php echo $estados_brasil['estado_id']; ?>"><?php echo $estados_brasil['estados']; ?></option>
               <?php } ?>
